@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5612b6a-eff3-4a8f-8b59-44e8321b41e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/domain/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/domain/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/domain/Book.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -147,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713461545888</updated>
       <workItem from="1713461546926" duration="503000" />
-      <workItem from="1713797885840" duration="5932000" />
+      <workItem from="1713797885840" duration="9128000" />
     </task>
     <servers />
   </component>

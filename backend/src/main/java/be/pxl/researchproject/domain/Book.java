@@ -4,9 +4,6 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Entity
 @Table(name = "books")
 public class Book {
@@ -21,18 +18,20 @@ public class Book {
     @Column(length = 512)
     private String bookBlurb; // Small text on the back page of the book
     private String isbn;
-    @ManyToMany(cascade = {CascadeType.ALL})
-    @JoinTable(name = "author_book", joinColumns = {@JoinColumn(name = "book_id")}, inverseJoinColumns = {@JoinColumn(name = "author_id")})
-    private List<Author> authors = new ArrayList<>();
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "book_id")
+    private Author author;
 
     public Book(){
 
     }
 
-    public Book(String title, int pages, String bookBlurb, String isbn) {
+    public Book(String title, int pages, String bookBlurb, String isbn, Author author) {
         this.title = title;
         this.pages = pages;
         this.bookBlurb = bookBlurb;
         this.isbn = isbn;
+        this.author = author;
     }
 }
