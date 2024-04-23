@@ -19,7 +19,7 @@ public class Book {
     private String bookBlurb; // Small text on the back page of the book
     private String isbn;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "book_id")
     private Author author;
 

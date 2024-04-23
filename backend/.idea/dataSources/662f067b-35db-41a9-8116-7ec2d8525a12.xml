@@ -929,142 +929,97 @@ librarydb|schema||user||UPDATE|G</Grants>
     </schema>
     <schema id="289" parent="1" name="librarydb">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-04-23.09:39:00</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-04-23.07:39:00</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2024-04-23.10:16:57</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2024-04-23.08:16:57</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="290" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="291" parent="1" name="user"/>
-    <table id="292" parent="289" name="author_book">
+    <table id="292" parent="289" name="authors">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="293" parent="289" name="authors">
+    <table id="293" parent="289" name="books">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="294" parent="289" name="books">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="295" parent="292" name="book_id">
+    <column id="294" parent="292" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="296" parent="292" name="author_id">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="295" parent="292" name="company">
+      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <foreign-key id="297" parent="292" name="FKmeehr164a2cpxegeiawuv40a3">
-      <ColNames>book_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>books</RefTableName>
-    </foreign-key>
-    <foreign-key id="298" parent="292" name="FK7cqs8nb7l859jcwwqoawcokqf">
-      <ColNames>author_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>authors</RefTableName>
-    </foreign-key>
-    <index id="299" parent="292" name="FKmeehr164a2cpxegeiawuv40a3">
-      <ColNames>book_id</ColNames>
+    <column id="296" parent="292" name="first_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="297" parent="292" name="last_name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="298" parent="292" name="number_of_books">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="299" parent="292" name="PRIMARY">
+      <ColNames>id</ColNames>
       <Type>btree</Type>
+      <Unique>1</Unique>
     </index>
-    <index id="300" parent="292" name="FK7cqs8nb7l859jcwwqoawcokqf">
-      <ColNames>author_id</ColNames>
-      <Type>btree</Type>
-    </index>
+    <key id="300" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
     <column id="301" parent="293" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="302" parent="293" name="first_name">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="302" parent="293" name="book_blurb">
+      <DasType>varchar(512)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="303" parent="293" name="last_name">
+    <column id="303" parent="293" name="isbn">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="304" parent="293" name="number_of_books">
+    <column id="304" parent="293" name="pages">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="305" parent="293" name="company">
+    <column id="305" parent="293" name="title">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="306" parent="293" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="307" parent="293" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="308" parent="294" name="id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="309" parent="294" name="book_blurb">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="310" parent="294" name="isbn">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="311" parent="294" name="pages">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="312" parent="294" name="title">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <column id="313" parent="294" name="book_id">
+    <column id="306" parent="293" name="book_id">
       <DasType>bigint|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="314" parent="294" name="author_id">
-      <DasType>bigint|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <foreign-key id="315" parent="294" name="FKakeernnogqxaqfrsry2fxwx0g">
+    <foreign-key id="307" parent="293" name="FKakeernnogqxaqfrsry2fxwx0g">
       <ColNames>book_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>authors</RefTableName>
     </foreign-key>
-    <foreign-key id="316" parent="294" name="FKfjixh2vym2cvfj3ufxj91jem7">
-      <ColNames>author_id</ColNames>
-      <RefColNames>id</RefColNames>
-      <RefTableName>authors</RefTableName>
-    </foreign-key>
-    <index id="317" parent="294" name="PRIMARY">
+    <index id="308" parent="293" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="318" parent="294" name="FKakeernnogqxaqfrsry2fxwx0g">
+    <index id="309" parent="293" name="FKakeernnogqxaqfrsry2fxwx0g">
       <ColNames>book_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="319" parent="294" name="FKfjixh2vym2cvfj3ufxj91jem7">
-      <ColNames>author_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="320" parent="294" name="PRIMARY">
+    <key id="310" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

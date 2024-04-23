@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5612b6a-eff3-4a8f-8b59-44e8321b41e0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc/storage_v2/_src_/schema/librarydb.ee5xMA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc/storage_v2/_src_/schema/librarydb.ee5xMA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/domain/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/service/BookService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713461545888</updated>
       <workItem from="1713461546926" duration="503000" />
-      <workItem from="1713797885840" duration="13453000" />
+      <workItem from="1713797885840" duration="17318000" />
     </task>
     <servers />
   </component>
