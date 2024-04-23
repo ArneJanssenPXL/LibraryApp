@@ -34,4 +34,28 @@ public class Book {
         this.isbn = isbn;
         this.author = author;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getPages() {
+        return pages;
+    }
+
+    public String getBookBlurb() {
+        return bookBlurb;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
 }
