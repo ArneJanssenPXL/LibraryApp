@@ -2,6 +2,7 @@ package be.pxl.researchproject.api.controller;
 
 import be.pxl.researchproject.api.request.AuthorRequest;
 import be.pxl.researchproject.api.response.AuthorDTO;
+import be.pxl.researchproject.api.response.AuthorDetailDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -28,5 +29,10 @@ public class AuthorController {
     @GetMapping
     public List<AuthorDTO> getAuthors() {
         return authorService.getAuthors();
+    }
+
+    @GetMapping("/{authorId}")
+    public AuthorDetailDTO getAuthorById(@PathVariable Long authorId) {
+        return authorService.getAuthorById(authorId);
     }
 }
