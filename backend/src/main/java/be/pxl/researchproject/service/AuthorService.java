@@ -28,7 +28,7 @@ public class AuthorService {
 
     public List<AuthorDTO> getAuthors() {
         return authorRepository.findAll().stream()
-                .map(a -> new AuthorDTO(a.getFirstName(), a.getLastName()))
+                .map(a -> new AuthorDTO(a.getId(), a.getFirstName(), a.getLastName()))
                 .toList();
     }
 

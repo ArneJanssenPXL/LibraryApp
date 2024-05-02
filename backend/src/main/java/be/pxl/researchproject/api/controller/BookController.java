@@ -1,9 +1,6 @@
 package be.pxl.researchproject.api.controller;
 
-import be.pxl.researchproject.api.request.AuthorRequest;
 import be.pxl.researchproject.api.request.BookRequest;
-import be.pxl.researchproject.api.response.AuthorDTO;
-import be.pxl.researchproject.api.response.AuthorDetailDTO;
 import be.pxl.researchproject.api.response.BookDTO;
 import be.pxl.researchproject.api.response.BookDetailDTO;
 import be.pxl.researchproject.service.BookService;

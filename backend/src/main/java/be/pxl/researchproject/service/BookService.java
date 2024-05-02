@@ -1,14 +1,9 @@
 package be.pxl.researchproject.service;
 
-import be.pxl.researchproject.api.request.AuthorRequest;
 import be.pxl.researchproject.api.request.BookRequest;
-import be.pxl.researchproject.api.response.AuthorDTO;
-import be.pxl.researchproject.api.response.AuthorDetailDTO;
 import be.pxl.researchproject.api.response.BookDTO;
 import be.pxl.researchproject.api.response.BookDetailDTO;
-import be.pxl.researchproject.domain.Author;
 import be.pxl.researchproject.domain.Book;
-import be.pxl.researchproject.exceptions.InvalidAuthorException;
 import be.pxl.researchproject.exceptions.InvalidBookException;
 import be.pxl.researchproject.repository.BookRepository;
 import org.springframework.stereotype.Service;
@@ -31,7 +26,7 @@ public class BookService {
 
     public List<BookDTO> getBooks() {
         return bookRepository.findAll().stream()
-                .map(b -> new BookDTO(b.getTitle(), b.getPages()))
+                .map(b -> new BookDTO(b.getId(), b.getTitle(), b.getPages(), b.getBookBlurb()))
                 .toList();
     }
 
