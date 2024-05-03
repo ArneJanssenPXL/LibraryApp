@@ -12,7 +12,7 @@ defineProps({
     id="book-card"
     elevation="5"
     rounded
-    color="rgb(255,255,201)"
+    color="rgb(228 167 120)"
   >
     <v-card-text>
       <v-container>
@@ -33,7 +33,7 @@ defineProps({
       </v-container>
     </v-card-text>
     <v-card-actions style="padding: 0; margin-left: 3vw">
-      <v-btn color="rgb(93,59,0)" variant="flat" :to="{ name: 'detailsBook', params: { id: book.id} }"> details</v-btn>
+      <v-btn  id="btn" variant="flat" :to="{ name: 'detailsBook', params: { id: book.id} }"> details</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -52,5 +52,9 @@ defineProps({
 
 .title {
   font-weight: bolder;
+}
+#btn{
+  background-color:rgb(87 87 87);
+  color: white;
 }
 </style>

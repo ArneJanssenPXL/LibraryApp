@@ -5,32 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5612b6a-eff3-4a8f-8b59-44e8321b41e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/DetailBookComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc/storage_v2/_src_/schema/librarydb.ee5xMA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f6af2c-a2fb-4cd9-9ace-2e211c1e3cbc/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/librarydb.ee5xMA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/response/AuthorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/response/AuthorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/response/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/response/BookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/response/BookDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/response/BookDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/request/AuthorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/request/AuthorRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/request/AuthorRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/request/AuthorRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/BottomNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/BottomNavigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/CardComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/CardComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/allBooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stores/allBooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/DetailsBookView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/DetailsBookView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JitskeLenaerts&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArneJanssenPXL/LibraryApp.git&quot;,
+    &quot;accountId&quot;: &quot;0aca43e0-7798-4459-aa98-ea7875990f1b&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,29 +72,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Arne/Documents/PXL_DERDE_JAAR/2_ProgrammingAdvancedJava/HerhalingSemester/SpringDataJPA/demo_spring_data_jpa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Docker.librarydb: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BackendApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arne/Documents/PXL_DERDE_JAAR/2_ProgrammingAdvancedJava/HerhalingSemester/SpringDataJPA/demo_spring_data_jpa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="backend" />
@@ -99,8 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aon14" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.pxl.researchproject.BackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.researchproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="aonxx" />
+      <module name="aon14" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="be.pxl.researchproject.BackendApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,10 +183,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Docker.librarydb: Compose Deployment" />
+        <item itemvalue="Spring Boot.BackendApplication (1)" />
         <item itemvalue="Docker.Docker.libraryDb: Compose Deployment" />
         <item itemvalue="Docker.docker.db: Compose Deployment" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,6 +209,10 @@
       <workItem from="1713797885840" duration="20018000" />
       <workItem from="1713892866752" duration="4401000" />
       <workItem from="1714631941084" duration="5255000" />
+      <workItem from="1714663750730" duration="535000" />
+      <workItem from="1714664480277" duration="9592000" />
+      <workItem from="1714747401152" duration="1799000" />
+      <workItem from="1714752514607" duration="1000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="librarydb@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.52">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -932,8 +932,7 @@ librarydb|schema||user||UPDATE|G</Grants>
     </schema>
     <schema id="290" parent="1" name="librarydb">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-04-23.10:16:57</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2024-04-23.08:16:57</LocalIntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-02.15:48:41</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="291" parent="1" name="user"/>

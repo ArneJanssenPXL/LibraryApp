@@ -6,6 +6,9 @@ public class AuthorRequest {
     private int numberOfBooks;
     private String company;
 
+    public AuthorRequest() {
+    }
+
     public AuthorRequest(String firstName, String lastName, int numberOfBooks, String company) {
         this.firstName = firstName;
         this.lastName = lastName;

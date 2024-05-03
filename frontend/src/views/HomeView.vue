@@ -12,7 +12,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <v-app class="app">
+  <v-app>
     <div class="content-cards">
       <ul>
         <li v-for="book in bookStore.books" :key="book.title">
@@ -41,9 +41,18 @@ li {
 
 .content-cards {
   background: #f6f1f1;
-  padding-top: 64px;
   padding-bottom: 64px;
   height: 100%;
   z-index: 0;
 }
+
+.bottomNavigation {
+  z-index: 1;
+}
+
+.light-background {
+  background: #f6f1f1;
+}
+
 </style>
+

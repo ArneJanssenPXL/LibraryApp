@@ -20,20 +20,22 @@ export const useBookStore = defineStore('books', {
         this.books = fetchedBooks.map(books => ({
           ...books,
         }));
-
-        /*const additionalResponse = await fetch('http://localhost:8081/foals');
-        if (!additionalResponse.ok) {
-          let status = additionalResponse.status;
-          throw new Error(`error status code ${status}`);
-        }
-        const additionalHorses = await additionalResponse.json();
-        this.horses = [...this.horses, ...additionalHorses.map(horse => ({
-          ...horse,
-          isMerry: false,
-          img: null
-        }))];*/
       } catch (error) {
         this.error = error.message;
+      }
+    },
+    async detailBooks(bookId) {
+      try {
+        const response = await fetch(`http://localhost:8085/books/${bookId}`);
+        if (!response.ok) {
+          let status = response.status;
+          throw new Error(`error status code ${status}`);
+        }
+        const fetchedBook = await response.json();
+        return fetchedBook; // Return the fetched book
+      } catch (error) {
+        this.error = error.message;
+        return null; // Return null in case of error
       }
     }
   }

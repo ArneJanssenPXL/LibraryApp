@@ -2,6 +2,9 @@
   <div class="about">
     <h1>This is an about page</h1>
   </div>
+  <div class="bottomNavigation">
+    <BottomNavigation class="light-background"></BottomNavigation>
+  </div>
 </template>
 
 <style>
@@ -13,3 +16,6 @@
   }
 }
 </style>
+<script setup>
+import BottomNavigation from "@/components/BottomNavigation.vue";
+</script>

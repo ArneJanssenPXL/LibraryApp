@@ -5,16 +5,18 @@
 <template>
   <div class="navBar">
     <div class="navigation-item">
-      <img src="../components/icons/calendarW.png" />
+      <img src="../components/icons/calendarB.png" />
       <span>Meldingen</span>
     </div>
+    <RouterLink to="/" style="text-decoration: none">
     <div class="navigation-item">
-      <img src="../components/icons/homeW.png" />
+      <img src="../components/icons/homeB.png" />
       <span>Home</span>
     </div>
-    <RouterLink to="/profile" style="text-decoration: none">
+    </RouterLink>
+    <RouterLink to="/about" style="text-decoration: none">
       <div class="navigation-item">
-        <img src="../components/icons/profileW.png" />
+        <img src="../components/icons/profileB.png" />
         <span>Profiel</span>
       </div>
     </RouterLink>
@@ -31,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 75px;
-  background-color: #FFFFC9 !important;
+  background-color: #9e9e9e !important;
 }
 
 .navigation-item {
@@ -39,7 +41,7 @@
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-  color: white;
+  color: #000000;
 }
 
 .navigation-item img {
