@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5612b6a-eff3-4a8f-8b59-44e8321b41e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/DetailBookComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/librarydb.ee5xMA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/662f067b-35db-41a9-8116-7ec2d8525a12/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/70f7e896-fcd5-4fb8-9d8f-afaa439f9e60.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/request/AuthorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/pxl/researchproject/api/request/AuthorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/request/AuthorRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/pxl/researchproject/api/request/AuthorRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/components/BottomNavigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/BottomNavigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/components/CardComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/CardComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/allBooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/stores/allBooks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/stores/counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/AboutView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/views/DetailsBookView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/DetailsBookView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/DetailBookComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/DetailBookComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +87,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.BackendApplication">
+  <component name="RunManager" selected="Spring Boot.BackendApplication (2)">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="backend" />
       <method v="2">
@@ -117,6 +103,19 @@
     </configuration>
     <configuration name="BackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="aon14" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.pxl.researchproject.BackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.pxl.researchproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackendApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="aonxx" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="be.pxl.researchproject.BackendApplication" />
       <extension name="coverage">
         <pattern>
@@ -182,6 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BackendApplication (2)" />
         <item itemvalue="Docker.Docker.librarydb: Compose Deployment" />
         <item itemvalue="Spring Boot.BackendApplication (1)" />
         <item itemvalue="Docker.Docker.libraryDb: Compose Deployment" />

@@ -24,8 +24,8 @@ defineProps({
             <br/>
             <div>
               <div>
-                <p style="font-size: small"><strong>Total pages: </strong>{{ book.pages }}</p>
-                <p style="font-size: small"><strong>Book blurb: </strong>{{ book.bookBlurb }}</p>
+                <p style="font-size: small"><strong>Aantal pagina's: </strong>{{ book.pages }}</p>
+                <p style="font-size: small"><strong>Boekenflap: </strong>{{ book.bookBlurb }}</p>
               </div>
             </div>
           </v-column>

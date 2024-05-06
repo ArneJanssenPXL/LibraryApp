@@ -1,12 +1,13 @@
 <template>
-    <v-app class="app">
+      <div id="returnHeader">
+        <ReturnHeaderComponent/>
+      </div>
       <div class="content-cards">
         <DetailBookComponent :book="book"></DetailBookComponent>
       </div>
       <div class="bottomNavigation">
         <BottomNavigation class="light-background"></BottomNavigation>
       </div>
-    </v-app>
 </template>
 
 <script setup>
@@ -15,6 +16,7 @@ import DetailBookComponent from '@/components/DetailBookComponent.vue';
 import { useBookStore } from '@/stores/allBooks.js';
 import { useRoute } from 'vue-router';
 import BottomNavigation from "@/components/BottomNavigation.vue";
+import ReturnHeaderComponent from '@/components/ReturnHeaderComponent.vue';
 
 const bookStore = useBookStore();
 const route = useRoute();
@@ -31,4 +33,10 @@ onMounted(async () => {
 </script>
 
 <style scoped>
+#returnHeader {
+  position: fixed;
+  width: 100vw;
+  height: 0;
+  z-index: 2;
+}
 </style>

@@ -3,6 +3,7 @@ import {onMounted} from "vue";
 import {useBookStore} from "@/stores/allBooks.js";
 import CardComponent from "@/components/CardComponent.vue";
 import BottomNavigation from "@/components/BottomNavigation.vue";
+import HeaderSearch from "@/components/HeaderSearch.vue";
 
 const bookStore = useBookStore();
 
@@ -13,6 +14,9 @@ onMounted(async () => {
 
 <template>
   <v-app>
+    <div class="header">
+    <HeaderSearch/>
+    </div>
     <div class="content-cards">
       <ul>
         <li v-for="book in bookStore.books" :key="book.title">
@@ -31,7 +35,6 @@ body {
   background: #f6f1f1;
   justify-content: center;
 }
-
 li {
   margin: 2%;
   list-style-type: none;
@@ -40,13 +43,10 @@ li {
 }
 
 .content-cards {
-  background: #f6f1f1;
-  padding-bottom: 64px;
-  height: 100%;
-  z-index: 0;
+  margin-top: 50px;
 }
 
-.bottomNavigation {
+.bottomNavigation , .header{
   z-index: 1;
 }
 

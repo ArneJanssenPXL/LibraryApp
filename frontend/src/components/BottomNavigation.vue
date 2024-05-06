@@ -11,13 +11,13 @@
     <RouterLink to="/" style="text-decoration: none">
     <div class="navigation-item">
       <img src="../components/icons/homeB.png" />
-      <span>Home</span>
+      <span>Adres</span>
     </div>
     </RouterLink>
     <RouterLink to="/about" style="text-decoration: none">
       <div class="navigation-item">
         <img src="../components/icons/profileB.png" />
-        <span>Profiel</span>
+        <span>Over ons</span>
       </div>
     </RouterLink>
   </div>
